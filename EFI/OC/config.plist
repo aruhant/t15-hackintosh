@@ -442,7 +442,7 @@
                     <key>Comment</key>
                     <string>Audio patches</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/AppleALC</string>
                     <key>MaxKernel</key>
@@ -656,9 +656,9 @@
                     <key>BundlePath</key>
                     <string>NVMeFix.kext</string>
                     <key>Comment</key>
-                    <string></string>
+                    <string>V1.1.1</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/NVMeFix</string>
                     <key>MaxKernel</key>
