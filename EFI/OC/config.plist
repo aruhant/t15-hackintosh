@@ -158,6 +158,22 @@
                     <key>Path</key>
                     <string>SSDT-PLUG-DRTNIA.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-EC-USBX-LAPTOP.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>SSDT-RHUB.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array>
@@ -1132,7 +1148,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapperMapping</key>
                 <true/>
                 <key>DisableLinkeditJettison</key>
@@ -1266,7 +1282,7 @@
                 <key>BlacklistAppleUpdate</key>
                 <true/>
                 <key>DmgLoading</key>
-                <string>Signed</string>
+                <string>Any</string>
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
@@ -1280,7 +1296,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
