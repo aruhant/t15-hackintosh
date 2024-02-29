@@ -383,10 +383,27 @@
         <dict>
             <key>Add</key>
             <dict>
-                <key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
                 <dict>
                     <key>layout-id</key>
+                    <integer>11</integer>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+                <dict>
+                    <key>AAPL,ig-platform-id</key>
+                    <data>AACbPg==</data>
+                    <key>device-id</key>
+                    <data>mz4AAA==</data>
+                    <key>framebuffer-con1-busid</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-con1-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-con1-type</key>
+                    <data>AAgAAA==</data>
+                    <key>framebuffer-patch-enable</key>
+                    <data>AQAAAA==</data>
+                    <key>model</key>
+                    <string>Intel UHD Graphics 620</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -456,7 +473,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>Audio patches</string>
+                    <string>V1.8.9 | Audio patches</string>
                     <key>Enabled</key>
                     <false/>
                     <key>ExecutablePath</key>
